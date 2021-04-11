@@ -180,7 +180,7 @@ function get_status(cb) {
 	let url = config.API.LOGIN_STATUS;
 	
 	request.get(url, {timestamp: ts}, (res)=> {
-		let data = res.data;
+		let data = res.data.data;
 		
 		if (data && data.code == 200) {
 			cb && cb(data)

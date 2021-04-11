@@ -3,7 +3,7 @@ const systemInfo = uni.getSystemInfoSync();
 
 const status_bar_height = systemInfo.statusBarHeight;
 
-const HOST = 'http://api.cloudmusic.pulsating.cn:3000/';
+const HOST = 'https://netease-cloud-music-api-seven-dun.vercel.app/';
 
 const API = {};
 //登录
